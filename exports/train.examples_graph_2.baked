@@ -1,0 +1,63 @@
+lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[a],v[-1])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[a],v[-1])
+>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[a],c[neg])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[a],v[-1])
+>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[a],c[pos])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(hasWord,c[rw],v[-2]) goal(isLabel,v[-1]) goal(related,v[-2],v[-1])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(hasWord,c[rw],v[-2]) goal(isLabel,v[-1]) goal(related,v[-2],v[-1])
+>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[wagon],v[-1])
+>>id('toywords.graph')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(hasWord,c[rw],v[-2]) goal(isLabel,v[-1]) goal(related,v[-2],v[-1])
+>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[a],v[-1])
+>>id('toywords.graph')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(hasWord,c[rw],v[-2]) goal(isLabel,v[-1]) goal(related,v[-2],v[-1])
+>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[red],v[-1])
+>>id('toywords.graph')>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[red],c[pos])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[red],c[pos])
+>lpState: goal(predict,c[rw],c[pos]) ... 
+>>w(red,pos)>>>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>lpState: goal(predict,c[rw],v[-1]) ... goal(hasWord,c[rw],v[-2]) goal(isLabel,v[-1]) goal(related,v[-2],v[-1])
+>>r>>>lpState: goal(predict,c[rw],c[pos]) ... 
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(trueLoopRestart)>>>lpState: goal(predict,c[rw],c[pos]) ... 
+>lpState: goal(predict,c[rw],c[pos]) ... 
+>>id(trueLoop)>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[a],c[pos])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[a],c[pos])
+>lpState: goal(predict,c[rw],c[pos]) ... 
+>>w(a,pos)>>>lpState: goal(predict,c[rw],c[neg]) ... 
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(trueLoopRestart)>>>lpState: goal(predict,c[rw],c[neg]) ... 
+>lpState: goal(predict,c[rw],c[neg]) ... 
+>>id(trueLoop)>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[a],c[neg])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[a],c[neg])
+>lpState: goal(predict,c[rw],c[neg]) ... 
+>>w(a,neg)>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[red],c[neg])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[red],c[neg])
+>lpState: goal(predict,c[rw],c[neg]) ... 
+>>w(red,neg)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[red],v[-1])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[red],v[-1])
+>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[red],c[pos])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[red],v[-1])
+>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[red],c[neg])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[wagon],c[pos])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[wagon],c[pos])
+>lpState: goal(predict,c[rw],c[pos]) ... 
+>>w(wagon,pos)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[wagon],v[-1])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[wagon],v[-1])
+>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[wagon],c[neg])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],v[-1]) ... goal(isLabel,v[-1]) goal(related,c[wagon],v[-1])
+>lpState: goal(predict,c[rw],c[pos]) ... goal(related,c[wagon],c[pos])
+>>id('toylabels.cfacts')>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[wagon],c[neg])
+>lpState: goal(predict,c[rw],v[-3]) ... goal(predict,c[rw],v[-3])
+>>id(alphaBooster)>id(defaultRestart)>>>lpState: goal(predict,c[rw],c[neg]) ... goal(related,c[wagon],c[neg])
+>lpState: goal(predict,c[rw],c[neg]) ... 
+>>w(wagon,neg)
